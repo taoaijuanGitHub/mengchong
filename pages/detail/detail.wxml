@@ -1,0 +1,20 @@
+
+<view class="row">
+    
+    <view>
+      {{item.address}}
+    </view>
+</view> 
+<view class="row">
+    <image style="width:100rpx;height:100rpx" src="/resources/{{item.type?item.type:'buy'}}.png" />
+    <view>
+         {{item.type==="buy"?"求购":"转让"}}
+      
+    </view>
+</view> 
+<view class="row">
+    {{item.desc}}
+</view>
+<view class="row">
+    {{item.contact}}
+</view>

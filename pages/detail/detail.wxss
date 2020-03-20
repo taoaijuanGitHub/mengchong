@@ -1,0 +1,12 @@
+/* pages/detail/detail.wxss */
+/* pages/publish/publish.wxss */
+.row{
+  display: flex;
+  line-height: 100rpx;
+  color:#555;
+  border-bottom: 1px solid #ccc;
+}
+.row label{
+  width:200rpx;
+  text-align: center;
+}

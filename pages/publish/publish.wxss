@@ -1,0 +1,21 @@
+/* pages/publish/publish.wxss */
+.row{
+  display: flex;
+  line-height: 100rpx;
+  color:#555;
+  border-bottom: 1px solid #ccc;
+}
+.row label{
+  width:200rpx;
+  text-align: center;
+}
+.row input{
+    margin:auto 0;
+    height:100%;
+    line-height: 100%;
+}
+.submit{
+  background: #ff9700;
+  margin:20rpx;
+  color:white;
+}

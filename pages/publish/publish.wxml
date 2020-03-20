@@ -1,0 +1,39 @@
+<view wx:if="{{flag}}">
+<view class="row">
+    <label>我的地址</label>
+    <view bindtap="chooseLocation">
+        {{address}}
+    </view>
+</view> 
+<view class="row">
+    <label>类型</label>
+    <view>
+        
+        <radio-group bindchange="change" data-type="type">
+            <radio value="buy">求购</radio>
+            <radio value="sell" checked>转让</radio>
+        </radio-group>  
+    </view>
+</view> 
+<view class="row">
+    <label>说明</label>
+    <view>
+        <input placeholder="请填写您的具体要求" bindinput="change" data-type="desc" />
+      
+    </view>
+</view> 
+<view class="row">
+    <label>联系方式</label>
+    <view>
+        <input placeholder="请填写您的联系方式"  bindinput="change" data-type="contact" />
+      
+    </view>
+</view> 
+<button class="submit" bindtap="submit">发布信息</button>
+</view>
+<view wx:else>
+    <view style="text-align:center">
+      <view ><icon type="success" size="20" />添加成功</view>
+      <button size="mini" bindtap="gohome">返回</button>
+    </view>
+</view>

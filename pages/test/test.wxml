@@ -1,0 +1,7 @@
+
+
+<One>
+ <view slot="one">abc</view>
+ <view slot="two">def</view>
+</One>
+<canvas style="width:375px;height:400px;border:1px solid #ccc" canvas-id="canvas" bindtap="draw" bindtouchstart="start" bindtouchmove="move"></canvas>

@@ -1,0 +1,5 @@
+<!--components/one.wxml-->
+
+<text>components/one.wxml</text>
+<slot name="one"></slot>
+<slot name="two"></slot>

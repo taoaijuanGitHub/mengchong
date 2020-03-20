@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/test/test",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/publish/publish",
+    "pages/search/search",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03bbd5",
+    "navigationBarTitleText": "萌宠交椅平台",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,31 @@
+.box{
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background: #eee;
+}
+.header{
+  background: #03bbd5;
+  height:80rpx;
+  line-height: 80rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+}
+.header view{
+  color:#FFF;
+  margin-left:10rpx;
+}
+.header input{
+  background: #FFF;
+  height:90%;
+  border-radius: 10rpx;
+  width:80%;
+  margin-left:10rpx;
+}
+.list view{
+  background:#FFF;
+  line-height: 120rpx;
+  margin-bottom:20rpx;
+}

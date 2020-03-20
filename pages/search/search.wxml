@@ -1,0 +1,13 @@
+<view class="box">
+  <view class="header">
+     <input value="{{kw}}" bindinput="input"></input>
+     <view bindtap="search">搜索</view>
+  </view>
+  <view class="list">
+      <view class="row" wx:for="{{result}}" wx:key="index">
+          <view>{{item.desc}}</view>
+          <view>{{item.contact}}</view>
+      </view>
+      
+  </view>
+</view>
